@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9d3434"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical">    <!--This is the background w/ gradient-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!--
+                <Button
+                    android:layout_width="353dp"
+                    android:layout_height="51dp"
+                    android:background="@drawable/jhawk_logo" />
+                haha commenting out code, If needed I can do the upper right corner thing by referring to the beginning of the code -->
+
+            </RelativeLayout><!--This is the menu layer-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="320dp"
+                    android:src="@drawable/jhawk_logo"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome! Please log in below."
+                    android:textColor="#fff"
+                    android:paddingBottom="20dp">
+
+                </TextView>
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:hint="  Username"
+                    android:background="@drawable/inp_field"
+                    android:textColorHint="#7d7d7d"
+
+                    ></EditText>
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/inp_field"
+                    android:hint="  Password"
+                    android:textColorHint="#7d7d7d"
+                    android:layout_marginTop="10dp"></EditText>
+
+                <Button
+                    android:layout_width="310dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginTop="20dp"
+                    android:hint="Login"
+                    android:textColorHint="#fff"
+                    android:textSize="30dp"/>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dontHave"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    style="?android:attr/borderlessButtonStyle"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/createAcc"
+                    android:textColorHint="#fff"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/continueWo"
+                    android:textColorHint="#fff"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout> <!--Menu and Login-->
+
+
+    </RelativeLayout> <!--Why are comments like this, this is hte background-->
+
+    </LinearLayout>

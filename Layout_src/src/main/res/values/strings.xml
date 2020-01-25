@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Login Application</string>
+    <string name="dontHave"><u>Don\'t have one?</u></string>
+    <string name="createAcc"><u>Create an Account.</u></string>
+    <string name="continueWo"><u>Continue without an Account.</u></string>
+</resources>
